@@ -3,7 +3,7 @@
 StrGenerator::StrGenerator(char first, int cnt1, char second, int cnt2, int maxlen, int start_len)
 :MaxPassLen(maxlen), PassLen(start_len), AmntToGen(300)
 {
-    InitCurStateVec(); 
+    InitCurStateVec();
     for(int i = 0; i < cnt1; ++i)
 	SymbolVec.push_back(first+i);
     for(int i = 0; i < cnt2; ++i)
@@ -18,7 +18,7 @@ void StrGenerator::PrintSymbols() const
     }
     cout << endl;
 }
-	
+
 void StrGenerator::InitCurStateVec()
 {
     for(int i=0; i<PassLen; ++i)
@@ -28,7 +28,7 @@ void StrGenerator::InitCurStateVec()
 
 int StrGenerator::GenerateChunk(StrVec *result_vec, int chunk_len)
 {
-    lock_guard<std::mutex> lock(Mutex); 
+    lock_guard<std::mutex> lock(Mutex);
 
     StrVec vec0;
     int left_chunk_len = chunk_len;
@@ -40,7 +40,7 @@ int StrGenerator::GenerateChunk(StrVec *result_vec, int chunk_len)
 	vec0.clear();
 	try
 	{
-	    Generate(&vec0, 0); 
+	    Generate(&vec0, 0);
 	    left_chunk_len -= vec0.size();
 	    if(left_chunk_len > 0)
 	    {
@@ -66,12 +66,12 @@ int StrGenerator::GenerateChunk(StrVec *result_vec, int chunk_len)
 void StrGenerator::Generate(StrVec *str_vec, int recursion_depth)
 {
     unsigned int i = 0;
-    for (i = CurStateVec[recursion_depth]; i < SymbolVec.size(); ++i) 
+    for (i = CurStateVec[recursion_depth]; i < SymbolVec.size(); ++i)
     {
-	CurGenStr.push_back(SymbolVec[i]); 
+	CurGenStr.push_back(SymbolVec[i]);
 	if(recursion_depth == PassLen-1)
 	{
-	    str_vec->push_back(CurGenStr); 
+	    str_vec->push_back(CurGenStr);
 	    assert(!CurGenStr.empty());
 	    CurGenStr.erase(CurGenStr.size()-1);
 	    assert(recursion_depth < PassLen);
