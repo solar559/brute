@@ -10,7 +10,7 @@
 class DataCompletedException
 {
     public:
-	DataCompletedException(int depth = 0)
+        DataCompletedException(int depth = 0)
 	    : Depth(depth) {}
 	int Depth;
 };
