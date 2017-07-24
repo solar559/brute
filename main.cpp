@@ -8,7 +8,7 @@ int main(int argc, char**argv)
     ArgParser parser(argc, argv);
     if(!parser.IsArgsOk())
     {
-	parser.PrintUsage();
+        parser.PrintUsage();
 	return 1;
     }
     parser.PrintArgs();
