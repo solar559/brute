@@ -16,7 +16,7 @@ int main(int argc, char**argv)
     StrGenerator generator(parser.GetFirst1(),
             parser.GetCnt1(),
 	    parser.GetFirst2(),
-	    parser.GetCnt2(),
+            parser.GetCnt2(),
             parser.GetEndLen(),
             parser.GetStartLen());
 
