@@ -5,7 +5,7 @@ StrGenerator::StrGenerator(char first, int cnt1, char second, int cnt2, int maxl
 {
     InitCurStateVec();
     for(int i = 0; i < cnt1; ++i)
-	SymbolVec.push_back(first+i);
+        SymbolVec.push_back(first+i);
     for(int i = 0; i < cnt2; ++i)
 	SymbolVec.push_back(second+i);
 }
