@@ -17,8 +17,8 @@ int main(int argc, char**argv)
             parser.GetCnt1(),
 	    parser.GetFirst2(),
 	    parser.GetCnt2(),
-	    parser.GetEndLen(),
-	    parser.GetStartLen());
+            parser.GetEndLen(),
+            parser.GetStartLen());
 
     BruteHelper helper(&generator, parser.GetNumThreads(),  parser.GetHash());
     
