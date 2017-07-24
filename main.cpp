@@ -9,7 +9,7 @@ int main(int argc, char**argv)
     if(!parser.IsArgsOk())
     {
         parser.PrintUsage();
-	return 1;
+        return 1;
     }
     parser.PrintArgs();
 
