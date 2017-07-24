@@ -17,9 +17,9 @@ class DataCompletedException
 
 
 // Char sequence generator
-class StrGenerator 
+class StrGenerator
 {
-    public: 
+    public:
 	StrGenerator(char first, int cnt1, char second, int cnt2, int len, int start_len=1);
 
 	// thread safe method for generation blocks of char sequences
@@ -30,7 +30,7 @@ class StrGenerator
 
 	// testing methods
         void PrintVec(StrVec const &vec);
-	void PrintIVec(IntVec const &vec); 
+	void PrintIVec(IntVec const &vec);
     private:
 	void InitCurStateVec();
 	void Generate(StrVec *str_vec, int recursion_depth);
@@ -41,7 +41,7 @@ class StrGenerator
 	int PassLen;        //Minimum length of char sequence to crack
 	int MaxPassLen;     //Maximum length of char sequence to crack
 	std::mutex Mutex;
-	int AmntToGen;      
+	int AmntToGen;
 	IntVec CurStateVec; // Saves internal state between successive calls of GenerateChunk()
 };
 
