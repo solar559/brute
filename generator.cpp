@@ -14,7 +14,7 @@ void StrGenerator::PrintSymbols() const
 {
     for(int i = 0; i < SymbolVec.size(); ++i)
     {
-	cout << SymbolVec[i];
+        cout << SymbolVec[i];
     }
     cout << endl;
 }
