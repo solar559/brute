@@ -6,7 +6,7 @@
 class BruteTester
 {
     public:
-	BruteTester(char first, int cnt1, char second, int cnt2, int maxlen, int startlen=1);
+       BruteTester(char first, int cnt1, char second, int cnt2, int maxlen, int startlen=1);
        void GeneratorSimpleTest();
        void GeneratorCompareTest();
        void GenerateToFile(string const &);
