@@ -23,7 +23,7 @@ void BruteTester::BlocksGenerateToFile(string const &fname)
 		myfile << vec[i] << endl;
 	    }
 	}
-	myfile.close();
+        myfile.close();
     }
 }
 
