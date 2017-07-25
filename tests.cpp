@@ -33,7 +33,7 @@ void BruteTester::GeneratorSimpleTest()
     StrVec vec1;
     StrGenerator p1(FirstChar, FirstCount, SecondChar, SecondCount, MaxPassLen, StartLen); 
     p1.GenerateChunk(&vec1, len1);
-}  
+}
 
 void BruteTester::GeneratorCompareTest()
 {  
