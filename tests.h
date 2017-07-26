@@ -21,6 +21,5 @@ class BruteTester
 };
 
 
-
 #endif
 
