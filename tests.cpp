@@ -46,7 +46,7 @@ void BruteTester::GeneratorCompareTest()
     p1.GenerateChunk(&vec1, len1);
     for(int i = 0; i<len1/len2; ++i)
     {
-	p2.GenerateChunk(&vec2, len2);
+        p2.GenerateChunk(&vec2, len2);
 	vec3.insert(vec3.end(), vec2.begin(), vec2.end());
     }
     assert(vec1.size() == vec3.size());
