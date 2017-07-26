@@ -8,20 +8,20 @@ int main(int argc, char**argv)
     ArgParser parser(argc, argv);
     if(!parser.IsArgsOk())
     {
-	parser.PrintUsage();
-	return 1;
+        parser.PrintUsage();
+        return 1;
     }
     parser.PrintArgs();
 
     StrGenerator generator(parser.GetFirst1(),
-	    parser.GetCnt1(),
-	    parser.GetFirst2(),
-	    parser.GetCnt2(),
-	    parser.GetEndLen(),
-	    parser.GetStartLen());
+            parser.GetCnt1(),
+            parser.GetFirst2(),
+            parser.GetCnt2(),
+            parser.GetEndLen(),
+            parser.GetStartLen());
 
     BruteHelper helper(&generator, parser.GetNumThreads(),  parser.GetHash());
-    
+
     std::chrono::time_point<std::chrono::system_clock> start, end;
 
     cout << endl;
