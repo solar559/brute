@@ -3,8 +3,10 @@
 #include "tests.h"
 #include "brute.h"
 
-void FF()
-{}
+static
+void Func()
+{
+}
 
 
 
