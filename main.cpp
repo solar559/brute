@@ -3,6 +3,9 @@
 #include "tests.h"
 #include "brute.h"
 
+void FF()
+{}
+
 int main(int argc, char**argv)
 {
     ArgParser parser(argc, argv);
