@@ -13,7 +13,7 @@ class BruteHelper;
 class BrutePerformer
 {
     public:
-	BrutePerformer(BruteHelper *helper) : Helper(helper) { }
+        BrutePerformer(BruteHelper *helper) : Helper(helper) { }
 
 	void Crack();
 
