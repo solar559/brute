@@ -11,7 +11,7 @@ class DataCompletedException
 {
     public:
         DataCompletedException(int depth = 0)
-	    : Depth(depth) {}
+        : Depth(depth) {}
 	int Depth;
 };
 

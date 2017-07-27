@@ -21,7 +21,7 @@ void BruteTester::BlocksGenerateToFile(string const &fname)
 	    {
 		myfile << vec[i] << endl;
 	    }
-	}
+        }
         myfile.close();
     }
 }
@@ -35,7 +35,7 @@ void BruteTester::GeneratorSimpleTest()
 }
 
 void BruteTester::GeneratorCompareTest()
-{  
+{
     cout << "GeneratorTest started" << endl;
     int len1 = 100;
     int len2 = 1;
