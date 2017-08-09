@@ -88,7 +88,7 @@ ArgParser::ArgParser(int argc, char **argv) : ArgsOk(false)
 	NumThreads = Parse<int>(argv[5], &ok);
 	if(!ok)
 	    NumThreads=NumCores;
-    }	
+    }
 
     ArgsOk = true;
 }
