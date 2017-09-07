@@ -15,12 +15,12 @@ void BruteTester::BlocksGenerateToFile(string const &fname)
     ofstream myfile (fname);
     if (myfile.is_open())
     {
-	while( p1.GenerateChunk(&vec, len1) > 0)
-	{
-	    for(int i = 0; i < vec.size(); ++i)
-	    {
-		myfile << vec[i] << endl;
-	    }
+        while( p1.GenerateChunk(&vec, len1) > 0)
+        {
+            for(int i = 0; i < vec.size(); ++i)
+            {
+                myfile << vec[i] << endl;
+            }
         }
         myfile.close();
     }
