@@ -68,7 +68,7 @@ void BruteTester::GenerateToFile(string const& fname)
     ofstream myfile (fname);
     if (myfile.is_open())
     {
-	for(int i = 0; i < vec.size(); ++i)
+ for(int i = 0; i < vec.size(); ++i)
 	{
 	    myfile << vec[i] << endl;
 	}
