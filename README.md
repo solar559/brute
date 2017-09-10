@@ -7,7 +7,7 @@ g++ -o brute.exe main.cpp generator.cpp tests.cpp argparser.cpp brute.cpp -std=c
 If you have your MinGW libs installed in a place other from default c:\MinGW\lib, you should provide it in a command line.
 
 Compiling on Ubuntu:
-g++ -o brute main.cpp generator.cpp tests.cpp argparser.cpp brute.cpp -std=c++0x -pthread  
+g++ -o brute main.cpp generator.cpp tests.cpp argparser.cpp brute.cpp -std=c++0x -pthread
 
 For testing needs I have provided two scripts: tst.bat(Windows), tst.sh(Ubuntu).
 These simple scripts run the program with some predefined data for different number of threads.
