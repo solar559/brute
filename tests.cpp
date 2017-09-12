@@ -55,7 +55,7 @@ void BruteTester::GeneratorCompareTest()
 	assert(vec1[i] == vec3[i]);
     }
     p1.PrintVec(vec1);
-    
+
     cout << "GeneratorTest completed" << endl;
 }
 
