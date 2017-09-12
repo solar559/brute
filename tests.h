@@ -3,6 +3,7 @@
 #include "generator.h"
 
 
+
 //Contains some helper testing methods for char sequence data generation ( StrGenerator ) 
 class BruteTester
 {
