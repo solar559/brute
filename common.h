@@ -16,4 +16,3 @@ typedef vector<int> IntVec;
 typedef vector<string> StrVec;
 
 #endif
-
