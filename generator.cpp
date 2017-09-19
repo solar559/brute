@@ -68,7 +68,7 @@ void StrGenerator::Generate(StrVec *str_vec, int recursion_depth)
     unsigned int i = 0;
     for (i = CurStateVec[recursion_depth]; i < SymbolVec.size(); ++i)
     {
-	CurGenStr.push_back(SymbolVec[i]);
+        CurGenStr.push_back(SymbolVec[i]);
 	if(recursion_depth == PassLen-1)
 	{
 	    str_vec->push_back(CurGenStr);
