@@ -21,5 +21,6 @@ class BruteTester
        int  MaxPassLen;
        int  StartLen;
 };
+
 #endif
 
