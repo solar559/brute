@@ -69,8 +69,8 @@ void BruteTester::GenerateToFile(string const& fname)
     {
         for(int i = 0; i < vec.size(); ++i)
 	{
-	    myfile << vec[i] << endl;
-	}
+            myfile << vec[i] << endl;
+        }
         myfile.close();
     }
 }
