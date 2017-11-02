@@ -1,4 +1,5 @@
 This program was compiled and tested on:
+
 1. Windows 7 x32, Mingw with posix-threads support ( http://win-builds.org/download.html), g++ (GCC) 4.8.2
 2. Ubuntu 12.04, g++ 4.6.3
 
