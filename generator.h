@@ -31,6 +31,7 @@ class StrGenerator
 	// testing methods
         void PrintVec(StrVec const &vec);
 	void PrintIVec(IntVec const &vec);
+
     private:
 	void InitCurStateVec();
 	void Generate(StrVec *str_vec, int recursion_depth);
