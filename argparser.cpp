@@ -85,10 +85,10 @@ ArgParser::ArgParser(int argc, char **argv) : ArgsOk(false)
     // extra thread number parameter
     if(argc == ArgsAmnt+1)
     {
-	NumThreads = Parse<int>(argv[5], &ok);
+        NumThreads = Parse<int>(argv[5], &ok);
 	if(!ok)
 	    NumThreads=NumCores;
-    }	
+    }
 
     ArgsOk = true;
 }
@@ -111,5 +111,3 @@ StrVec ArgParser::Split(const string &s, char delim)
     Split(s, delim, elems);
     return elems;
 }
-
-

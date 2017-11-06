@@ -4,8 +4,7 @@
 BruteTester::BruteTester(char first, int cnt1, char second, int cnt2, int maxlen, int startlen)
     :FirstChar(first), FirstCount(cnt1), SecondChar(second), SecondCount(cnt2), MaxPassLen(maxlen), StartLen(startlen)
 
-{
-}
+{}
 
 void BruteTester::BlocksGenerateToFile(string const &fname)
 {
@@ -15,12 +14,12 @@ void BruteTester::BlocksGenerateToFile(string const &fname)
     ofstream myfile (fname);
     if (myfile.is_open())
     {
-	while( p1.GenerateChunk(&vec, len1) > 0)
-	{
-	    for(int i = 0; i < vec.size(); ++i)
-	    {
-		myfile << vec[i] << endl;
-	    }
+        while( p1.GenerateChunk(&vec, len1) > 0)
+        {
+            for(int i = 0; i < vec.size(); ++i)
+            {
+                myfile << vec[i] << endl;
+            }
         }
         myfile.close();
     }
@@ -55,7 +54,7 @@ void BruteTester::GeneratorCompareTest()
 	assert(vec1[i] == vec3[i]);
     }
     p1.PrintVec(vec1);
-    
+
     cout << "GeneratorTest completed" << endl;
 }
 
@@ -68,11 +67,11 @@ void BruteTester::GenerateToFile(string const& fname)
     ofstream myfile (fname);
     if (myfile.is_open())
     {
- for(int i = 0; i < vec.size(); ++i)
+        for(int i = 0; i < vec.size(); ++i)
 	{
-	    myfile << vec[i] << endl;
-	}
-	myfile.close();
+            myfile << vec[i] << endl;
+        }
+        myfile.close();
     }
 }
 
