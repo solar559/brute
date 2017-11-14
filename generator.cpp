@@ -101,7 +101,6 @@ void StrGenerator::PrintVec(StrVec const &vec)
     }
 }
 
-
 void StrGenerator::PrintIVec(IntVec const &vec)
 {
     for(int i = 0; i < vec.size(); ++i)
