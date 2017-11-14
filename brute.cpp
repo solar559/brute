@@ -33,6 +33,9 @@ void BruteHelper::PrintResult() const
     cout     << "Force brute completed:   " << s << endl;
     if(Found)
 	cout << "Found key:               " << SrcKey << endl;
+
+
+
 }
 
 void BrutePerformer::Crack()
