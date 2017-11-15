@@ -3,8 +3,7 @@
 #include "tests.h"
 #include "brute.h"
 
-static
-void Func()
+static void Func()
 {}
 
 int main(int argc, char**argv)
