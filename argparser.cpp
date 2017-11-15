@@ -1,13 +1,11 @@
 #include <thread>
 #include "argparser.h"
 
-
 void ArgParser::PrintUsage() const
 {
     cout << "brute: sample brute-force attack utility." << endl;
     cout << "Author:  Bagdasaryan E.G." << endl;
     cout << "Version: 1.0" << endl << endl;
-
     cout << "Sample usage:  brute.exe 3 10 65-90:97-122 hash_to_check [num_threads]" << endl;
 }
 
