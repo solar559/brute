@@ -83,7 +83,6 @@ void StrGenerator::Generate(StrVec *str_vec, int recursion_depth)
 	    }
 	    continue;
 	}
-
 	Generate(str_vec, recursion_depth+1);
 	CurStateVec[recursion_depth]++;
 
@@ -100,7 +99,6 @@ void StrGenerator::PrintVec(StrVec const &vec)
         cout << vec[i] << endl;
     }
 }
-
 
 void StrGenerator::PrintIVec(IntVec const &vec)
 {
