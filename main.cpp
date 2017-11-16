@@ -9,6 +9,7 @@ static void Func()
 int main(int argc, char**argv)
 {
     ArgParser parser(argc, argv);
+
     if(!parser.IsArgsOk())
     {
         parser.PrintUsage();
