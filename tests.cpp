@@ -58,7 +58,6 @@ void BruteTester::GeneratorCompareTest()
     cout << "GeneratorTest completed" << endl;
 }
 
-
 void BruteTester::GenerateToFile(string const& fname)
 {
     StrVec vec;
