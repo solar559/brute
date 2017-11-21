@@ -15,8 +15,7 @@ void BruteHelper::CrackParallel()
     {
 	unique_lock<mutex> lock(Mutex);
 	Condition.wait(lock); 
-	if(Found)
-	{
+	if(Found) {
 	    return;
 	}
 	left_threads--;
