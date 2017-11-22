@@ -62,7 +62,6 @@ int StrGenerator::GenerateChunk(StrVec *result_vec, int chunk_len)
     return result_vec->size();
 }
 
-
 void StrGenerator::Generate(StrVec *str_vec, int recursion_depth)
 {
     unsigned int i = 0;
