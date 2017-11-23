@@ -22,7 +22,6 @@ class BrutePerformer
 	MD5            Md5;
 };
 
-
 typedef vector<shared_ptr<BrutePerformer>> PerformerVec;
 
 
