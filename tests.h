@@ -23,4 +23,3 @@ class BruteTester
 };
 
 #endif
-
