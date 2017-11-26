@@ -14,7 +14,6 @@ class DataCompletedException
         int Depth;
 };
 
-
 // Char sequence generator
 class StrGenerator
 {
