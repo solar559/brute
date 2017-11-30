@@ -23,6 +23,7 @@ void ArgParser::PrintArgs() const
     cout << setw(15) << left << "NumThreads" <<  " = " << NumThreads << endl;
 }
 
+
 ArgParser::ArgParser(int argc, char **argv) : ArgsOk(false)
 {
     if( (argc > ArgsAmnt + 1)  || ( argc < ArgsAmnt)  )
