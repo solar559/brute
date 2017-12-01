@@ -32,6 +32,7 @@ void BruteTester::GeneratorSimpleTest()
     p1.GenerateChunk(&vec1, len1);
 }
 
+
 void BruteTester::GeneratorCompareTest()
 {
     cout << "GeneratorTest started" << endl;
