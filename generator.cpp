@@ -87,6 +87,7 @@ void StrGenerator::Generate(StrVec *str_vec, int recursion_depth)
 	CurStateVec[recursion_depth]++;
 
     }
+
     CurStateVec[recursion_depth] = 0;
     if(!CurGenStr.empty())
 	CurGenStr.erase(CurGenStr.size()-1);
