@@ -64,7 +64,6 @@ ArgParser::ArgParser(int argc, char **argv) : ArgsOk(false)
 	return;
     }
 
-
     First2 = static_cast<char>(Parse<int>(vec2[0], &ok));
     if(!ok)
 	return;
