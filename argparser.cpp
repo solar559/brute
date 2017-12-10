@@ -95,8 +95,7 @@ StrVec &ArgParser::Split(const string &s, char delim, StrVec  &elems)
 {
     stringstream ss(s);
     string item;
-    while (getline(ss, item, delim)) 
-    {
+    while (getline(ss, item, delim)) {
 	elems.push_back(item);
     }
     return elems;
