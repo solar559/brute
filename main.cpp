@@ -26,7 +26,6 @@ int main(int argc, char**argv)
 
     
     std::chrono::time_point<std::chrono::system_clock> start, end;
-
     
     cout << endl;
     cout << "Executing brute-force  ..." << endl;
