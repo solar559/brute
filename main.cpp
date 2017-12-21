@@ -3,9 +3,7 @@
 #include "tests.h"
 #include "brute.h"
 
-
 static void Func() {}
-
 
 int main(int argc, char**argv)
 {
@@ -25,10 +23,8 @@ int main(int argc, char**argv)
             parser.GetStartLen());
 
     BruteHelper helper(&generator, parser.GetNumThreads(),  parser.GetHash());
-
     
     std::chrono::time_point<std::chrono::system_clock> start, end;
-
     
     cout << endl;
     cout << "Executing brute-force  ..." << endl;

@@ -90,7 +90,6 @@ ArgParser::ArgParser(int argc, char **argv) : ArgsOk(false)
 
     ArgsOk = true;
 }
-
 StrVec &ArgParser::Split(const string &s, char delim, StrVec  &elems)
 {
     stringstream ss(s);
@@ -100,7 +99,6 @@ StrVec &ArgParser::Split(const string &s, char delim, StrVec  &elems)
     }
     return elems;
 }
-
 StrVec ArgParser::Split(const string &s, char delim) {
     StrVec elems;
     Split(s, delim, elems);
