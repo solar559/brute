@@ -23,7 +23,6 @@ int main(int argc, char**argv)
             parser.GetStartLen());
 
     BruteHelper helper(&generator, parser.GetNumThreads(),  parser.GetHash());
-
     
     std::chrono::time_point<std::chrono::system_clock> start, end;
     
