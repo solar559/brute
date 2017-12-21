@@ -35,8 +35,7 @@ int main(int argc, char**argv)
     helper.PrintResult();
     std::chrono::duration<double> elapsed_seconds = end-start;
     
-    std::cout << "elapsed time: " << elapsed_seconds.count() << endl;
-    
+    std::cout << "elapsed time: " << elapsed_seconds.count() << endl;    
     return 0;
 }
 
