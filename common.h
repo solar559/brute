@@ -12,6 +12,7 @@
 
 using namespace std;
 
+
 typedef vector<char> CharVec;
 typedef vector<int> IntVec;
 typedef vector<string> StrVec;

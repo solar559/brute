@@ -24,8 +24,7 @@ int main(int argc, char**argv)
 
     BruteHelper helper(&generator, parser.GetNumThreads(),  parser.GetHash());
     
-    std::chrono::time_point<std::chrono::system_clock> start, end;
-    
+    std::chrono::time_point<std::chrono::system_clock> start, end;    
     cout << endl;
     cout << "Executing brute-force  ..." << endl;
     cout << endl;
