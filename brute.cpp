@@ -33,7 +33,6 @@ void BruteHelper::PrintResult() const
 	cout << "Found key:               " << SrcKey << endl;
 }
 
-
 void BrutePerformer::Crack()
 {
     StrVec vec;
