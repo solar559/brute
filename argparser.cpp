@@ -1,7 +1,6 @@
 #include <thread>
 #include "argparser.h"
 
-
 void ArgParser::PrintUsage() const
 {
     cout << "brute: sample brute-force attack utility." << endl;
