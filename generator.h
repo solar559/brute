@@ -6,6 +6,7 @@
 #include "common.h"
 #include "argparser.h"
 
+
 class DataCompletedException
 {
     public:
