@@ -3,7 +3,6 @@
 #include "tests.h"
 #include "brute.h"
 
-
 static void Func() {}
 
 
