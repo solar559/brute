@@ -36,4 +36,3 @@ int main(int argc, char**argv)
     std::cout << "elapsed time: " << elapsed_seconds.count() << endl;    
     return 0;
 }
-
