@@ -14,3 +14,5 @@ For testing needs I have provided two scripts: tst.bat(Windows), tst.sh(Ubuntu).
 These simple scripts run the program with some predefined data for different number of threads.
 The program outputs the algorithm execution time, so it is possible to evaluate
 the advantage of the multithreaded version.
+
+[link](./Screenshot.png)
