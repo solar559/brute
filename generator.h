@@ -44,5 +44,7 @@ class StrGenerator
 	IntVec CurStateVec; // Saves internal state between successive calls of GenerateChunk()
 };
 
+#include <iostream>
+
 #endif
 
