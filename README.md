@@ -15,4 +15,4 @@ These simple scripts run the program with some predefined data for different num
 The program outputs the algorithm execution time, so it is possible to evaluate
 the advantage of the multithreaded version.
 
-[link](./Screenshot.png)
+![link](./Screenshot.png)
