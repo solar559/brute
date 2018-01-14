@@ -15,7 +15,6 @@ int main(int argc, char**argv)
         return 1;
     }
     parser.PrintArgs();
-
     StrGenerator generator(parser.GetFirst1(),
             parser.GetCnt1(),
             parser.GetFirst2(),
@@ -38,4 +37,3 @@ int main(int argc, char**argv)
     std::cout << "elapsed time: " << elapsed_seconds.count() << endl;    
     return 0;
 }
-
