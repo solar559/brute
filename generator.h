@@ -46,5 +46,7 @@ class StrGenerator
 };
 
 
+#include <iostream>
+
 #endif
 

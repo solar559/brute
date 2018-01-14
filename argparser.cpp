@@ -9,7 +9,6 @@ void ArgParser::PrintUsage() const
     cout << "Sample usage:  brute.exe 3 10 65-90:97-122 hash_to_check [num_threads]" << endl;
 }
 
-
 void ArgParser::PrintArgs() const
 {
     cout << "=================== Arguments: ======================" << endl;

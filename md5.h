@@ -1,6 +1,7 @@
 #ifndef MD5_H
 #define MD5_H
 
+
 // Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All
 // rights reserved.
 
@@ -29,6 +30,7 @@
 // string.h for memcpy.
 #include <stdio.h>
 #include <string.h>
+
 
 #pragma region MD5 defines
 // Constants for MD5Transform routine.
