@@ -1,6 +1,5 @@
 #include "generator.h"
 
-
 StrGenerator::StrGenerator(char first, int cnt1, char second, int cnt2, int maxlen, int start_len)
 :MaxPassLen(maxlen), PassLen(start_len), AmntToGen(300)
 {
@@ -25,6 +24,7 @@ void StrGenerator::InitCurStateVec()
 	CurStateVec.push_back(0);
 
 }
+
 
 int StrGenerator::GenerateChunk(StrVec *result_vec, int chunk_len)
 {
@@ -107,4 +107,3 @@ void StrGenerator::PrintIVec(IntVec const &vec)
         cout << vec[i] << " " << endl;
     }
 }
-

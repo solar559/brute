@@ -6,6 +6,7 @@
 #include "common.h"
 #include "argparser.h"
 
+
 class DataCompletedException
 {
     public:
@@ -43,6 +44,7 @@ class StrGenerator
 	int AmntToGen;
 	IntVec CurStateVec; // Saves internal state between successive calls of GenerateChunk()
 };
+
 
 #include <iostream>
 
