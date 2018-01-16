@@ -106,4 +106,3 @@ void StrGenerator::PrintIVec(IntVec const &vec)
         cout << vec[i] << " " << endl;
     }
 }
-
