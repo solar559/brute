@@ -73,3 +73,4 @@ void BruteTester::GenerateToFile(string const& fname)
     }
 }
 
+
