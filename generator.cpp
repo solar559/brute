@@ -18,6 +18,7 @@ void StrGenerator::PrintSymbols() const
     cout << endl;
 }
 
+
 void StrGenerator::InitCurStateVec()
 {
     for(int i=0; i<PassLen; ++i)
