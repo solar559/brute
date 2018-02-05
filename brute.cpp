@@ -1,5 +1,6 @@
 #include "brute.h"
 
+
 void BruteHelper::CrackParallel()
 {
     for(int i = 0; i < NumThreads; ++i)
