@@ -3,7 +3,6 @@
 
 #include "common.h"
 
-
 // Command line parser class
 class ArgParser
 { 
