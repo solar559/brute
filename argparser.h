@@ -59,5 +59,4 @@ class ArgParser
 	unsigned int NumThreads; // extra thread amount parameter 
 };
 
-
 #endif
