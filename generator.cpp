@@ -25,7 +25,6 @@ void StrGenerator::InitCurStateVec()
 
 }
 
-
 int StrGenerator::GenerateChunk(StrVec *result_vec, int chunk_len)
 {
     lock_guard<std::mutex> lock(Mutex);
