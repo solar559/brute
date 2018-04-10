@@ -5,7 +5,6 @@ BruteTester::BruteTester(char first, int cnt1, char second, int cnt2, int maxlen
     :FirstChar(first), FirstCount(cnt1), SecondChar(second), SecondCount(cnt2), MaxPassLen(maxlen), StartLen(startlen)
 {}
 
-
 void BruteTester::BlocksGenerateToFile(string const &fname)
 {
     int len1 = 10;
