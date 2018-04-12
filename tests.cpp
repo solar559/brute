@@ -31,7 +31,8 @@ void BruteTester::GeneratorSimpleTest()
     StrGenerator p1(FirstChar, FirstCount, SecondChar, SecondCount, MaxPassLen, StartLen); 
     p1.GenerateChunk(&vec1, len1);
 }
-#include <iostream>
+
+
 void BruteTester::GeneratorCompareTest()
 {
     cout << "GeneratorTest started" << endl;
