@@ -1,4 +1,5 @@
 #include "generator.h"
+#include <iostream>
 #include <vector>
 
 StrGenerator::StrGenerator(char first, int cnt1, char second, int cnt2, int maxlen, int start_len)
