@@ -1,6 +1,6 @@
 #include <thread>
 #include "argparser.h"
-
+#include <vector>
 
 void ArgParser::PrintUsage() const
 {
