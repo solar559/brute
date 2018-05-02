@@ -1,5 +1,5 @@
 #include "brute.h"
-
+#include <iostream>
 
 void BruteHelper::CrackParallel()
 {
