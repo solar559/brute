@@ -1,6 +1,7 @@
 #include <fstream>
 #include "tests.h"
 
+
 BruteTester::BruteTester(char first, int cnt1, char second, int cnt2, int maxlen, int startlen)
     :FirstChar(first), FirstCount(cnt1), SecondChar(second), SecondCount(cnt2), MaxPassLen(maxlen), StartLen(startlen)
 {}
