@@ -5,7 +5,6 @@
 
 static void Func() {}
 
-
 int main(int argc, char**argv)
 {
     ArgParser parser(argc, argv);
@@ -37,3 +36,4 @@ int main(int argc, char**argv)
     std::cout << "elapsed time: " << elapsed_seconds.count() << endl;    
     return 0;
 }
+
