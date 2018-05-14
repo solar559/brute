@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 
+
 void BruteHelper::CrackParallel()
 {
     for(int i = 0; i < NumThreads; ++i)
