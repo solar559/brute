@@ -1,5 +1,6 @@
 #include <fstream>
 #include "tests.h"
+#include <iostream>
 #include <vector>
 
 
